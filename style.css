@@ -143,3 +143,8 @@ table.tabla2 th:first-child,table.tabla2 th:last-child {
   color: black
 }
 
+.px {
+
+  margin-left: 440px;
+}
+
