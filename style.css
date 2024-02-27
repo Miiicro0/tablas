@@ -1,0 +1,145 @@
+.centrado {
+    text-align:center;
+    color: white;
+}
+
+body {
+    background-color: #005d82;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid white; 
+    margin: 25px;
+}
+
+h1 {
+    color: white;
+}
+
+.tabla,.tabla3 {
+    border-collapse: collapse;
+    margin: auto;
+   
+  }
+  
+.curs{
+  text-align: center;
+  color:white;
+  font-size: 30px;
+  font-weight: bold;
+}
+ 
+
+  .tabla2{
+    border-collapse: collapse;
+    margin: auto;
+  }
+
+ 
+  table.tabla2 td,table.tabla2 td {
+    border: 1px solid black;
+    text-align:center;
+    padding:15px;
+    width: 453px;
+    color:black;
+   ;
+
+  }
+
+  table.tabla th,table.tabla td
+  {
+    border: 1px solid black;
+    text-align:center;
+    padding:30px;
+    width: 100px;
+    color: black;
+    background-color: white;
+  }
+  table.tabla th.dias
+  {
+    background-color:grey;
+  }
+
+  table.tabla td.mp04
+  {
+    background-color:rgb(255, 174, 0);
+  }
+  table.tabla td.mp06
+  {
+    background-color:rgb(139, 231, 139)
+  }
+  table.tabla td.mp07
+  {
+    background-color:rgb(230, 230, 139)
+  }
+  table.tabla td.mp08
+  {
+    background-color:rgb(148, 148, 209)
+  }
+  table.tabla td.mp10
+  {
+    background-color:rgb(77, 77, 243)
+  }
+  table.tabla td.mp12
+  {
+    background-color:rgb(211, 135, 207)
+  }
+  table.tabla td.mp14
+  {
+    background-color:rgb(231, 173, 66)
+  }
+  table.tabla td.T {
+    background-color: rgb(138, 138, 138);
+  }
+
+  .azulmarino{
+     background-color: rgb(139, 173, 236);
+
+  }
+
+  .blanco{
+     background-color:white;
+  }
+
+  table.tabla2 th.letrablanca
+  {
+    border: 1px solid black;
+    text-align:center;
+    padding:15px;
+    width: 453px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+table.tabla th.dias {
+
+  color: white;
+  background-color: #005d82;
+}
+
+table.tabla3 th,table.tabla3 td
+{
+  border: 1px solid black;
+  text-align:center;
+  padding:30px;
+  width: 100px;
+  color: black;
+  background-color: white;
+  margin: auto;
+  
+}
+
+
+table.tabla3 td:nth-child(odd){
+  background-color: rgb(224, 224, 224);
+}
+
+table.tabla3 th:nth-child(odd) {
+  background-color: rgb(224, 224, 224);
+
+}
+table.tabla2 th:first-child,table.tabla2 th:last-child {
+  background-color: rgb(224, 224, 224);
+  color: black
+}
+
